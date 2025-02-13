@@ -93,10 +93,10 @@
 
         Function {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans         &trans         &none                                     &kp F1  &kp F2   &kp F3   &kp F4   &trans
+&trans  &trans  &trans         &kp LC(LG(R))  &kp LC(LG(M))  &trans             &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&trans  &trans  &kp LC(LG(P))  &kp LC(LG(B))  &kp LC(LG(B))  &trans             &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&trans  &trans  &trans         &kp LC(LG(S))  &kp LC(LG(V))  &kp LG(SPACE)      &trans  &trans                             &trans
             >;
         };
 
