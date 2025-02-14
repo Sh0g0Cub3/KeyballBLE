@@ -73,10 +73,10 @@
 
         Symbol {
             bindings = <
-&kp LS(TILDE)  &kp LS(EXCL)   &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)                          &kp LS(LPAR)  &kp LS(RPAR)  &kp I         &none       &none
-&kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(UNDER)  &kp GRAVE      &none   &kp LBKT      &kp RBKT      &kp LS(PIPE)  &none       &none
-&kp LS(DQT)    &kp SQT        &kp EQUAL     &kp LS(PLUS)   &kp LS(UNDER)  &none          &none   &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(LT)    &kp LS(GT)  &none
-&trans         &trans         &trans        &trans         &trans         &trans         &trans  &trans                                                &trans
+&kp LS(TILDE)  &kp LS(EXCL)   &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)                          &kp LS(LPAR)  &kp LS(RPAR)  &kp BACKSLASH  &none       &none
+&kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(UNDER)  &kp GRAVE      &none   &kp LBKT      &kp RBKT      &kp LS(PIPE)   &none       &none
+&kp LS(DQT)    &kp SQT        &kp EQUAL     &kp LS(PLUS)   &kp MINUS      &none          &none   &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(LT)     &kp LS(GT)  &none
+&trans         &trans         &trans        &trans         &trans         &trans         &trans  &trans                                                 &trans
             >;
         };
 
@@ -100,10 +100,10 @@
 
         Function {
             bindings = <
-&none   &none   &none          &none          &none                                     &kp F1  &kp F2   &kp F3   &kp F4   &none
-&none   &none   &none          &kp LC(LG(R))  &kp LC(LG(M))  &none              &none   &kp F5  &kp F6   &kp F7   &kp F8   &none
-&none   &none   &kp LC(LG(P))  &kp LC(LG(B))  &kp LC(LG(B))  &none              &none   &kp F9  &kp F10  &kp F11  &kp F12  &none
-&trans  &trans  &trans         &kp LC(LG(S))  &kp LC(LG(V))  &kp LG(SPACE)      &trans  &trans                             &trans
+&none   &none   &none          &none              &none                                     &kp F1  &kp F2   &kp F3   &kp F4   &none
+&none   &none   &none          &kp LC(LG(R))      &kp LC(LG(M))  &none              &none   &kp F5  &kp F6   &kp F7   &kp F8   &none
+&none   &none   &kp LC(LG(P))  &kp LC(LG(LS(B)))  &kp LC(LG(B))  &none              &none   &kp F9  &kp F10  &kp F11  &kp F12  &none
+&trans  &trans  &trans         &kp LC(LG(S))      &kp LC(LG(V))  &kp LG(SPACE)      &trans  &trans                             &trans
             >;
         };
 
