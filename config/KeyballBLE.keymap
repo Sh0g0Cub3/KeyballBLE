@@ -55,7 +55,7 @@
             bindings = <
 &kp Q             &kp W         &kp E    &kp R    &kp T                                           &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D    &lt 6 F  &kp G         &mo 6            &mo 7            &kp H        &kp J  &kp K      &kp L    &lt 6 SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C    &kp V    &kp B         &kp ESCAPE       &mo 5            &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
+&mt LEFT_SHIFT Z  &kp X         &kp C    &kp V    &kp B         &kp ESCAPE       &lt 5 LG(SPACE)  &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_ALT  &kp TAB  &mo 2    &kp LEFT_GUI  &lt 4 SPACE      &lt 3 LC(SPACE)  &lt 1 ENTER                             &kp BACKSPACE
             >;
 
@@ -100,7 +100,7 @@
 
         Function {
             bindings = <
-&none   &none   &none          &none              &none                                     &kp F1  &kp F2   &kp F3   &kp F4   &none
+&none   &none   &none          &none              &none                                     &kp F1  &kp F2   &kp F3   &kp F4   &kp LC(LG(P))
 &none   &none   &none          &kp LC(LG(R))      &kp LC(LG(M))  &none              &none   &kp F5  &kp F6   &kp F7   &kp F8   &none
 &none   &none   &kp LC(LG(P))  &kp LC(LG(LS(B)))  &kp LC(LG(B))  &none              &none   &kp F9  &kp F10  &kp F11  &kp F12  &none
 &trans  &trans  &trans         &kp LC(LG(S))      &kp LC(LG(V))  &kp LG(SPACE)      &trans  &trans                             &trans
