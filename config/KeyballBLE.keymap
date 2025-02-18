@@ -63,7 +63,7 @@
 &kp ESCAPE  &none   &none             &none          &kp BACKSPACE                        &kp BACKSPACE      &kp LC(LG(LEFT_BRACKET))  &kp LC(LG(SPACE))  &kp LC(LG(RIGHT_BRACKET))  &none
 &none       &none   &none             &none          &none          &none       &kp HOME  &kp LEFT_ARROW     &kp DOWN_ARROW            &kp UP_ARROW       &kp RIGHT_ARROW            &kp LC(LG(C))
 &none       &none   &kp LG(NUMBER_0)  &kp LG(MINUS)  &kp LG(EQUAL)  &none       &kp END   &kp LA(LC(SPACE))  &kp LS(LA(LC(SPACE)))     &kp LS(LA(J))      &none                      &none
-&trans      &trans  &trans            &trans         &trans         &trans      &trans    &trans                                                                                     &trans
+&trans      &trans  &trans            &mo 3          &trans         &trans      &trans    &trans                                                                                     &trans
             >;
         };
 
@@ -72,7 +72,7 @@
 &kp LS(TILDE)  &kp LS(EXCL)   &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)                          &kp LS(LPAR)   &kp LS(RPAR)  &kp BACKSLASH  &none       &none
 &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(UNDER)  &kp GRAVE      &none   &kp LBKT       &kp RBKT      &kp LS(PIPE)   &none       &none
 &kp LS(DQT)    &kp SQT        &kp EQUAL     &kp LS(PLUS)   &kp MINUS      &none          &none   &kp LS(LBRC)   &kp LS(RBRC)  &kp LS(LT)     &kp LS(GT)  &none
-&trans         &trans         &trans        &mo 3          &trans         &trans         &trans  &kp LA(ENTER)                                           &trans
+&trans         &trans         &trans        &trans         &trans         &trans         &trans  &kp LA(ENTER)                                           &trans
             >;
         };
 
