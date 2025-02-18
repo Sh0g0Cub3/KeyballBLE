@@ -96,10 +96,10 @@
 
         Function {
             bindings = <
-&none   &none   &none          &none              &none                                     &kp F1  &kp F2   &kp F3   &kp F4   &kp LC(LG(P))
-&none   &none   &none          &kp LC(LG(R))      &kp LC(LG(M))  &none              &none   &kp F5  &kp F6   &kp F7   &kp F8   &none
-&none   &none   &kp LC(LG(P))  &kp LC(LG(LS(B)))  &kp LC(LG(B))  &none              &none   &kp F9  &kp F10  &kp F11  &kp F12  &none
-&trans  &trans  &trans         &kp LC(LG(S))      &kp LC(LG(V))  &kp LG(SPACE)      &trans  &trans                             &trans
+&none   &none          &none   &none          &none                                         &kp F1  &kp F2   &kp F3   &kp F4   &kp LC(LG(P))
+&none   &kp LC(LG(S))  &none   &kp LC(LG(F))  &none          &none                  &none   &kp F5  &kp F6   &kp F7   &kp F8   &none
+&none   &none          &none   &kp LC(LG(V))  &kp LC(LG(B))  &none                  &none   &kp F9  &kp F10  &kp F11  &kp F12  &none
+&trans  &trans         &trans  &trans         &trans         &kp LS(LC(LG(B)))      &trans  &trans                             &trans
             >;
         };
 
