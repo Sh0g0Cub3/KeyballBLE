@@ -41,9 +41,9 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E    &kp R    &kp T                                           &kp Y        &kp U    &kp I      &kp O    &kp P
-&mt LCTRL A       &kp S         &kp D    &lt 7 F  &kp G         &mkp RCLK        &mo 7            &kp H        &lt 7 J  &kp K      &kp L    &mt LCTRL SEMICOLON
+&mt LCTRL A       &kp S         &kp D    &lt 1 F  &kp G         &mkp RCLK        &mo 7            &kp H        &lt 1 J  &kp K      &kp L    &mt LCTRL SEMICOLON
 &mt LEFT_SHIFT Z  &kp X         &kp C    &kp V    &kp B         &tog 1           &lt 6 LG(SPACE)  &kp N        &kp M    &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp TAB  &mo 3    &kp LEFT_GUI  &lt 5 SPACE      &lt 4 LC(SPACE)  &lt 2 ENTER                               &kp LEFT_SHIFT
+&kp LCTRL         &kp LEFT_ALT  &kp TAB  &mo 1    &kp LEFT_GUI  &lt 5 SPACE      &lt 4 LC(SPACE)  &lt 2 ENTER                               &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -72,7 +72,7 @@
 &kp LS(TILDE)  &kp LS(EXCL)   &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)                          &kp LS(LPAR)   &kp LS(RPAR)  &kp BACKSLASH  &none       &none
 &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(UNDER)  &kp GRAVE      &none   &kp LBKT       &kp RBKT      &kp LS(PIPE)   &none       &none
 &kp LS(DQT)    &kp SQT        &kp EQUAL     &kp LS(PLUS)   &kp MINUS      &none          &none   &kp LS(LBRC)   &kp LS(RBRC)  &kp LS(LT)     &kp LS(GT)  &none
-&trans         &trans         &trans        &trans         &trans         &trans         &trans  &kp LA(ENTER)                                           &trans
+&trans         &trans         &trans        &mo 3          &trans         &trans         &trans  &kp LA(ENTER)                                           &trans
             >;
         };
 
