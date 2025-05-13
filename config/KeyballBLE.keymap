@@ -60,10 +60,10 @@
 
         Arrow {
             bindings = <
-&kp NUMBER_1       &kp NUMBER_2              &kp NUMBER_3       &kp NUMBER_4               &kp N5                                 &kp NUMBER_6       &kp NUMBER_7           &kp N8         &kp NUMBER_9     &kp NUMBER_0
-&kp C_VOLUME_DOWN  &kp LG(LC(LEFT_BRACKET))  &kp LC(LG(SPACE))  &kp LC(LG(RIGHT_BRACKET))  &kp C_VOLUME_UP  &none       &kp HOME  &kp LEFT_ARROW     &kp DOWN_ARROW         &kp UP_ARROW   &kp RIGHT_ARROW  &kp LEFT_SHIFT
-&none              &none                     &kp LG(NUMBER_0)   &kp LG(MINUS)              &kp LG(EQUAL)    &none       &kp END   &kp LA(LC(SPACE))  &kp LS(LA(LC(SPACE)))  &kp LS(LA(J))  &none            &none
-&trans             &trans                    &trans             &trans                     &trans           &trans      &trans    &trans                                                                    &trans
+&kp NUMBER_1       &kp NUMBER_2              &kp NUMBER_3       &kp NUMBER_4               &kp N5                                         &kp NUMBER_6       &kp NUMBER_7           &kp N8         &kp NUMBER_9     &kp NUMBER_0
+&kp C_VOLUME_DOWN  &kp LG(LC(LEFT_BRACKET))  &kp LC(LG(SPACE))  &kp LC(LG(RIGHT_BRACKET))  &kp C_VOLUME_UP  &none               &kp HOME  &kp LEFT_ARROW     &kp DOWN_ARROW         &kp UP_ARROW   &kp RIGHT_ARROW  &kp LEFT_SHIFT
+&none              &none                     &kp LG(NUMBER_0)   &kp LG(MINUS)              &kp LG(EQUAL)    &none               &kp END   &kp LA(LC(SPACE))  &kp LS(LA(LC(SPACE)))  &kp LS(LA(J))  &none            &none
+&trans             &trans                    &trans             &trans                     &trans           &kp LEFT_SHIFT      &trans    &trans                                                                    &trans
             >;
         };
 
