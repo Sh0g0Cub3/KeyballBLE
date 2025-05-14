@@ -22,14 +22,9 @@
             layers = <0>;
         };
 
-        shift-tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <18 19>;
-        };
-
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <2 3>;
+            key-positions = <0 1>;
         };
     };
 
